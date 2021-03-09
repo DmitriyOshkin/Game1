@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GameTry-1</title>
+    <link rel = "stylesheet" href="GameStyle1.css">
+    <script src="GameJSCode1.js" defer> </script>
+</head>
+<body>
+    <div class="sign_in">
+        <p class="enter"> Enter your name: </p>
+        <p class="name"><input type="text" id="name"></p>
+        <div class="button">    
+            <button onclick="back()"> Back </button>
+            <button onclick="next()"> Next </button>
+        </div>
+    </div>
+    <div class="game">
+        <p class="out" id="out"> Waiting... </p>
+        <button onclick="signInBack()">Close</button>
+        <div class="hit" onclick="hit()" id="myAnim">( ͡° ͜ʖ ͡°)</div>
+    </div>
+</body>
+</html>

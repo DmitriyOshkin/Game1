@@ -1,0 +1,37 @@
+html {
+    user-select: none;
+    background-color: rgb(166, 202, 80);
+}
+.sign_in {
+    text-align: center;
+}
+.enter {
+    font-size: larger;
+    text-align: center;
+}
+.name {
+    text-align: center;
+}
+.button {
+    text-align: center;
+}
+.out {
+    font-size: xx-large;
+    text-align: center;
+}
+.game {
+    text-align: center;
+}
+.hit {
+    top: 50%;
+    left: 50%;    
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: rgb(68, 197, 214);
+}
